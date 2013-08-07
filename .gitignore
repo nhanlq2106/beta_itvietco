@@ -1,0 +1,20 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+/nbproject/private/
+
+# Ignore submodule files
+*.gitmodules
+sites/plenty.local
+sites/all/themes/lms_theme
+sites/all/modules/lms
+
+error_log
+lms_core/
+nbproject/
+sites/all/libraries/fullcalendar/
+sites/joncris.server7.com.au/
+sites/plenty.server7.com.au/
